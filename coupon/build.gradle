@@ -30,6 +30,7 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
+	implementation "mysql:mysql-connector-java:8.0.28"
 	implementation 'org.redisson:redisson-spring-boot-starter:3.17.7'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'

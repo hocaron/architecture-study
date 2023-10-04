@@ -19,5 +19,4 @@ public @interface DistributedLock {
 
     // lease time : After successfully acquiring the lock, it automatically releases the lock once the lease time expires.
     long leaseTime() default 3L;
-
 }
