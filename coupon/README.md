@@ -6,6 +6,8 @@
 - The quantity of event coupons is limited to 2000.
 - The goal is to achieve a throughput of 10,000 to 1,000,000 TPS (Transactions Per Second).
 
+## Concurrency Control
+
 ### Concurrency Control Using JAVA synchronized
 
 ### Concurrency Control Using DB Lock
@@ -20,6 +22,7 @@
 - 한명의 사용자에게 하나의 쿠폰만 발행한다.
 - 사용자들이 요청한 순서대로 쿠폰을 발행한다.
 
+## 동시성 제어
 ### synchronized 를 이용한 동시성 제어
 
 ### DB 배타락을 이용한 동시성 제어
