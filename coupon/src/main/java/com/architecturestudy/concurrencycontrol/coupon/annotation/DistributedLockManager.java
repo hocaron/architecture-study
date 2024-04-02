@@ -1,5 +1,6 @@
 package com.architecturestudy.concurrencycontrol.coupon.annotation;
 
+import org.redisson.RedissonFairLock;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.stereotype.Component;
@@ -16,7 +17,7 @@ public class DistributedLockManager {
 
 	public Object executeWithLock(DistributedLock distributedLock, String key, LockCallback callback) {
 
-		RLock rLock = redissonClient.getLock(key);
+		RLock rLock = redissonClient.getFairLock(key);
 
 		try {
 			boolean isPossible = rLock.tryLock(distributedLock.waitTime(), distributedLock.leaseTime(), distributedLock.timeUnit());
