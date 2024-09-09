@@ -1,4 +1,4 @@
-package com.architecturestudy.concurrencycontrol.coupon;
+package com.study.coupon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

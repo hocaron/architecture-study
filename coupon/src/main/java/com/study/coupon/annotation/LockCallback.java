@@ -1,4 +1,4 @@
-package com.architecturestudy.concurrencycontrol.coupon.annotation;
+package com.study.coupon.annotation;
 
 @FunctionalInterface
 public interface LockCallback {

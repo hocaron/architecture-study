@@ -1,4 +1,4 @@
-package com.architecturestudy.concurrencycontrol.coupon.event;
+package com.study.coupon.event;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

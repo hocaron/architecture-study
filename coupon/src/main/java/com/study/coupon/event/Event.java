@@ -1,4 +1,4 @@
-package com.architecturestudy.concurrencycontrol.coupon.event;
+package com.study.coupon.event;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

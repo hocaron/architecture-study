@@ -1,4 +1,4 @@
-package com.architecturestudy.concurrencycontrol.coupon.annotation;
+package com.study.coupon.annotation;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.springframework.stereotype.Component;

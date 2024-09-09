@@ -1,4 +1,4 @@
-package com.architecturestudy.concurrencycontrol.coupon.event;
+package com.study.coupon.event;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

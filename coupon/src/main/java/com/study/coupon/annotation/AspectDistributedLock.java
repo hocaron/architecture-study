@@ -1,4 +1,4 @@
-package com.architecturestudy.concurrencycontrol.coupon.annotation;
+package com.study.coupon.annotation;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
@@ -21,7 +21,7 @@ public class AspectDistributedLock {
 	private final DistributedLockManager lockManager;
 	private final RedissonCallTransaction redissonCallTransaction;
 
-	@Around("@annotation(com.architecturestudy.concurrencycontrol.coupon.annotation.DistributedLock)")
+	@Around("@annotation(com.study.coupon.annotation.DistributedLock)")
 	public Object lock(final ProceedingJoinPoint joinPoint) {
 		MethodSignature signature = (MethodSignature)joinPoint.getSignature();
 		DistributedLock distributedLock = signature.getMethod().getAnnotation(DistributedLock.class);

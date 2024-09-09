@@ -1,4 +1,4 @@
-package com.architecturestudy.concurrencycontrol.coupon;
+package com.study.coupon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,5 @@
-package com.architecturestudy.concurrencycontrol.coupon.annotation;
+package com.study.coupon.annotation;
 
-import org.redisson.RedissonFairLock;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.stereotype.Component;
