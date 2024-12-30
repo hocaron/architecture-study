@@ -1,4 +1,4 @@
-package com.study.coupon.event;
+package com.example.coupon.event;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

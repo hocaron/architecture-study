@@ -1,4 +1,4 @@
-package com.study.coupon.event;
+package com.example.coupon.event;
 
 import java.util.Optional;
 

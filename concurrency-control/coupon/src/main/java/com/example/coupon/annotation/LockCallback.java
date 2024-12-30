@@ -1,4 +1,4 @@
-package com.study.coupon.annotation;
+package com.example.coupon.annotation;
 
 @FunctionalInterface
 public interface LockCallback {

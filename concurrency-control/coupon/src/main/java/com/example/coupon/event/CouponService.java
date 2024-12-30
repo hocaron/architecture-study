@@ -1,4 +1,4 @@
-package com.study.coupon.event;
+package com.example.coupon.event;
 
 import java.util.Random;
 
@@ -6,7 +6,7 @@ import javax.persistence.EntityExistsException;
 
 import org.springframework.stereotype.Service;
 
-import com.study.coupon.annotation.DistributedLock;
+import com.example.coupon.annotation.DistributedLock;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

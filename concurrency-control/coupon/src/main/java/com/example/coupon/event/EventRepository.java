@@ -1,4 +1,4 @@
-package com.study.coupon.event;
+package com.example.coupon.event;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package com.study.coupon.event;
+package com.example.coupon.event;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

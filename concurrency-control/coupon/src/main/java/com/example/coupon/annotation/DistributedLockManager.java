@@ -1,4 +1,4 @@
-package com.study.coupon.annotation;
+package com.example.coupon.annotation;
 
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;

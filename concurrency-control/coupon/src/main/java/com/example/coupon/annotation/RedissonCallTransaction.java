@@ -1,4 +1,4 @@
-package com.study.coupon.annotation;
+package com.example.coupon.annotation;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.springframework.stereotype.Component;
